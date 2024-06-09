@@ -1,0 +1,11 @@
+.ui-index-bg-img{
+    background-image: url(/close-up-african-american-hand-holding-stethoscope\ 1.png);
+    background-position:fixed;
+    background-size: cover;
+}
+.ui-login-bg-img{
+    background-image: url(/doctor-folding.png);
+    background-position:fixed;
+    background-size: cover;
+    color: rgba(5, 5, 114, 0.932);
+}
