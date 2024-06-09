@@ -22,6 +22,7 @@ export const AuthenticationProvider=(prop:{children:ReactNode})=>{
         .then(data=>{
             const responseData=data.request.responseURL as string;
             if(responseData!='http://localhost:8080/login-success'){
+                
                 setIsAuthorized(false);
                 setIsLoading(false);
                 navigation("/login",{state:{error:"You're not authorized to access "+location.pathname+" path"}})
